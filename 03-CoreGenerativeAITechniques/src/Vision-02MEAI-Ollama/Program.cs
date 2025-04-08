@@ -34,4 +34,4 @@ var imageAnalysis = await chatClient.GetResponseAsync(messages);
 var response = await chatClient.GetResponseAsync(messages);
 Console.WriteLine($"Prompt: {prompt}");
 Console.WriteLine($"Image: {imageFileName}");
-Console.WriteLine($"Response: {imageAnalysis.Message.Text}");
+Console.WriteLine($"Response: {imageAnalysis.Text}");
